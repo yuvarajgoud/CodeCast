@@ -13,12 +13,12 @@ function Home() {
     e.preventDefault();
     const Id = uuid();
     setRoomId(Id);
-    toast.success("Room Id is generated");
+    toast.success("RoomId generated");
   };
 
   const joinRoom = () => {
     if (!roomId || !username) {
-      toast.error("Both the field is requried");
+      toast.error("Both fields are requried");
       return;
     }
 
@@ -28,7 +28,7 @@ function Home() {
         username,
       },
     });
-    toast.success("room is created");
+    toast.success("Room created");
   };
 
   // when enter then also join

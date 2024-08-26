@@ -4,7 +4,7 @@ import "codemirror/theme/dracula.css";
 import "codemirror/addon/edit/closetag";
 import "codemirror/addon/edit/closebrackets";
 import "codemirror/lib/codemirror.css";
-import CodeMirror from "codemirror";
+import CodeMirror from "codemirror"; 
 import { ACTIONS } from "../Actions";
 
 function Editor({ socketRef, roomId, onCodeChange }) {
@@ -36,7 +36,7 @@ function Editor({ socketRef, roomId, onCodeChange }) {
             code,
           });
         }
-      });
+      });  
     };
 
     init();

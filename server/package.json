@@ -1,11 +1,12 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "the is a realtime codeshare",
+  "description": "This is realtime code editor",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "node index.js",
+    "build":"node index.js"
   },
   "author": "Yuvaraj Goud",
   "license": "ISC",
